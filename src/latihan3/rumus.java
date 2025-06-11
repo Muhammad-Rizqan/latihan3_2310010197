@@ -8,8 +8,8 @@ public class rumus {
     public static int hitungLuas(int sisi) {
         return sisi * sisi;
     }
-    public static int hitungKeliling(int sisi) {
-        return 4 * sisi;
+    public int hitungLuasPersegiPanjang(int panjang, int lebar) {
+        return panjang * lebar;
     }
 
     

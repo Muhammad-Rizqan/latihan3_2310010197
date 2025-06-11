@@ -12,14 +12,5 @@ public class rumus {
         return 4 * sisi;
     }
 
-    public static void main(String[] args) {
-        int sisi = 5;
-
-        int luas = hitungLuas(sisi);
-        int keliling = hitungKeliling(sisi);
-
-        System.out.println("Sisi: " + sisi);
-        System.out.println("Luas persegi: " + luas);
-        System.out.println("Keliling persegi: " + keliling);
-    }
+    
 }
